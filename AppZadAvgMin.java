@@ -29,6 +29,7 @@ public class AppZadAvgMin {
         HashMap<String, Double> statisticsHashMap = new HashMap<>();
         statisticsHashMap.put("Minimum", array.stream().mapToDouble(Integer::intValue).min().getAsDouble());
         statisticsHashMap.put("AVG", array.stream().mapToDouble(Integer::intValue).average().getAsDouble());
+
         return statisticsHashMap;
     }
 
