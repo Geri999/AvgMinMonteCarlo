@@ -8,7 +8,7 @@ import java.util.Locale;
 
 public class AppZadAvgMin {
 
-    // tablica o zadanym rozmiarze generująca wartosci int od 0 do 1 mln.
+    // tablica o zadanym rozmiarze generująca wartosci int od 0 do max w ilość size.
     public static ArrayList<Integer> arrayGenerator(int size, int max) {
         ArrayList<Integer> array = new ArrayList<>();
         SecureRandom secureRandom = new SecureRandom();
